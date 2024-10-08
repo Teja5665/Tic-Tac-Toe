@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    font-size: 38px;
+}
+.board{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    row-gap: 5px;
+    column-gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+#cell0,#cell1,#cell2,#cell3,#cell4,#cell5,#cell6,#cell7,#cell8{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    background-color: white;
+    cursor: pointer;
+    font-size: 38px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#reset{
+    color: black;
+    font-size: 22px;
+    border-radius: 7px;
+}
